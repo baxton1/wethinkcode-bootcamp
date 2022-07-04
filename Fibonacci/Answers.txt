@@ -1,0 +1,52 @@
+#Question 1
+The Fibonacci Sequence is a series of numbers. The next number is found by adding up the two numbers before it. For example, 0, 1, 1, 2, 3, 5, 8, 13, 21.
+The next number in this series is 13+21 = 34.
+
+Write a program that will take as user input any two consecutive numbers between 0 and 21 in the Fibonacci sequence, e.g. 1 1 or 8 13.
+
+The next number in the sequence should be stored in a variable called next. After that print next
+
+#Question 2
+The Fibonacci Sequence is a series of numbers. The next number is found by adding up the two numbers before it. For example: 0, 1, 1, 2, 3, 5, 8, 13, 21. The next number in this series is 13+21 = 34.
+
+Write a program that will take as user input a number between 2 and 15. The number entered by the user will determine the length of a list called Fibonacci_list, which stores numbers in the Fibonacci sequence from 0 to n, depending on the user input. For instance, if the user enters 4, Fibonacci_list will contain [0,1,1,2]
+
+Use a for loop to add numbers from the Fibonacci sequence to Fibonacci_list, and then print Fibonacci_list
+
+#question 3
+
+The Fibonacci Sequence is a series of numbers. The next number is found by adding up the two numbers before it. For example: 0, 1, 1, 2, 3, 5, 8, 13, 21. The next number in this series is 13+21 = 34.
+
+Write a program that will take as user input a number between 2 and 15 and store it in variable num3. The number entered by the user will determine the length of a list called Fibonacci_list, which stores numbers in the Fibonacci sequence from 0 to n, depending on the user input. For instance, if the user enters 4, Fibonacci_list will contain [0,1,1,2]
+
+Create a function called Fibonacci which takes in 3 arguments:
+num1 - the first number in the Fibonacci sequence
+num2 - the second number in the Fibonacci sequence
+num3 - user input which will determine the length of Fibonacci_list and the numbers of the Fibonacci sequence that Fibonacci_list will store
+In the Fibonacci function, use a for loop to add numbers from the Fibonacci sequence to Fibonacci_list, and then print Fibonacci_list
+
+#question 4
+The Fibonacci Sequence is a series of numbers. The next number is found by adding up the two numbers before it. For example, 0, 1, 1, 2, 3, 5, 8, 13, 21. The next number in this series is 13+21 = 34.
+The Fibonacci series from 0 to 4181 is 0, 1 , 1, 2, 3, 5, 8 , 13, 21, 34 , 55, 89, 144, 233, 377, 610, 987, 1597 ,2584, 4181
+Write a program that will take as user input any two consecutive numbers between 0 and 4181 in the Fibonacci sequence, e.g. 1 1 or 34 55.
+Use a loop to print out the next 10 numbers in the sequence that follow the 2 entered as input e.g. If input is
+
+0
+1
+
+the output will be:
+
+Fibonacci sequence:
+0 1 1 2 3 5 8 13 21 34
+
+if the input is
+
+55
+89
+
+the output will be:
+
+Fibonacci sequence:
+55  89  144  233  377  610  987
+
+The program should stop printing after 987. Any number in the series after 987 should not be printed
